@@ -39,7 +39,7 @@ jobs:
           actions-cache-key: ${{ matrix.os }}
           package-cache: false
           package-cache-key: ${{ matrix.os }}
-          build-cache: true
+          build-cache: false
           build-cache-key: ${{ matrix.os }}-${{ matrix.build_type }}
 
       - name: Xmake configure
@@ -91,7 +91,7 @@ jobs:
           actions-cache-key: ${{ matrix.os }}
           package-cache: false
           package-cache-key: ${{ matrix.os }}
-          build-cache: true
+          build-cache: false
           build-cache-key: ${{ matrix.os }}-${{ matrix.build_type }}
 
       - name: Xmake configure
@@ -132,7 +132,7 @@ jobs:
           actions-cache-key: ${{ matrix.os }}
           package-cache: false
           package-cache-key: ${{ matrix.os }}
-          build-cache: true
+          build-cache: false
           build-cache-key: ${{ matrix.os }}-${{ matrix.build_type }}
 
       - name: Xmake configure
